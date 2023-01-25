@@ -12,12 +12,11 @@ Usted ha sido contactado para el área de Machine Learning de una importante emp
 
 ## **Contenido del repositorio** 
 
-Dos archivos donde se encuentran los dataset utilizados en formato parquet:
-test.parquet Y train.parquet
 En el notebook de 'script.ipynb' se encuentra el proceso comentado del analisis exploratorio y la elaboración del modelo aprendizaje supervisado.
 En el archivo DecisionTree_model.pkl se encuentra el modelo de árbol de decisión creado.
 Archivo 'readme.md'.
 FacundoArc.csv es el csv con la columna de predicciones del dataset 'test.parquet'.
+Los datasets utilizados no pueden ser guardados en el repositorio debido a su tamaño. En este link se pueden descargar los datasets: https://drive.google.com/drive/folders/1nJ9ZMj6E6zh6McC9NwCA6KopfUIOG_1O
 
 ## **Trabajo Realizado** 
 Como primer paso realicé un análisis del dataset de train.parquet, con el objetivo de identificar valores duplicados, faltantes o errores. Procedí a intercambiar las variables categóricas para convertirlas en valores que pudiesen ser interpretados por el modelo. Continue entrenado un modelo Arbol de Desición utlizando todo el modelo excepto algunas columnas que ,gracias a un grafico de correlación de variables, me parecieron irrelevantes para el proceso. Luego analicé el resultado de Recall y Accuracy. Prosegui a crear un modelo de validación cruzada para poder visualizar la relación del Accuracy del modelo con diferentes niveles de profundidad del Arbol de Decisión.
